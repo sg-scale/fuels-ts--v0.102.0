@@ -57,7 +57,7 @@ jobs:
           project-id: ${{ env.VERCEL_TS_TEMPLATE_PROJECT_ID }}
 
       - name: Add PR comment
-        uses: mshick/add-pr-comment@v2
+        uses: mshick/add-pr-comment@v3
         with:
           refresh-message-position: false
           message: |
